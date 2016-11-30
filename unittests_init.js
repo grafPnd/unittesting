@@ -72,6 +72,7 @@
 				removeAttr('tmp'))[0]);	
 		}
 	}
+	/** This is a set of api methods, that could be called from triggers. */
 	U_test.prototype.api = {
 		run_tests: function(){
 			if(self.service.checkRun()){
